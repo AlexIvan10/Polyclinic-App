@@ -16,11 +16,18 @@ This project is a comprehensive management system for a chain of polyclinics, de
 - **User Roles**: Admin, Super Admin, HR Inspector, Financial Expert, Receptionist, Nurse, Doctor, and Patient.
 - **Authentication**: Email and password-based login.
 - **Role-Specific Functionalities**:
--- Doctors can view appointments and create medical reports.
--- Nurses operate independently and manage patient data.
--- Receptionists handle appointment scheduling.
--- Financial Experts manage clinic finances.
--- Admins and Super Admins add, modify, and delete users.
+  - **Doctor**:
+    - View appointments.
+    - Create medical reports.
+  - **Nurse**:
+    - Operate independently.
+    - Manage patient data.
+  - **Receptionist**:
+    - Handle appointment scheduling.
+  - **Financial Expert**:
+    - Manage clinic finances.
+  - **Admin and Super Admin**:
+    - Add, modify, and delete users.
 - **Blood Donation Tracking**: Updates blood stock levels per clinic.
 - **Financial Management**: Automatic revenue, expense, and profit calculation.
 - **Comprehensive Database Management**: Supports CRUD operations for users, appointments, and medical services.
