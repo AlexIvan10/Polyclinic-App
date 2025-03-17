@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="543.0" prefWidth="870.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.GestiuneaActivitatilorReceptionerController">
+   <children>
+      <TableView fx:id="tableReceptioner" layoutX="84.0" layoutY="209.0" prefHeight="200.0" prefWidth="701.0">
+         <columns>
+            <TableColumn fx:id="numeColR" prefWidth="104.66666412353516" text="Nume" />
+            <TableColumn fx:id="prenumeColR" prefWidth="103.33335876464844" text="Prenume" />
+            <TableColumn fx:id="doctorColR" prefWidth="189.33331298828125" text="Doctor" />
+            <TableColumn fx:id="oraColR" prefWidth="92.00003051757812" text="Ora" />
+            <TableColumn fx:id="sumaColR" prefWidth="104.66668701171875" text="Suma" />
+            <TableColumn fx:id="dataColR" prefWidth="108.0" text="Data" />
+         </columns>
+      </TableView>
+      <Label layoutX="249.0" layoutY="41.0" text="Gestiunea activitatilor" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButtonR" layoutX="383.0" layoutY="435.0" mnemonicParsing="false" onAction="#backButton" style="-fx-background-color: #b42727;" text="Inapoi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="84.0" layoutY="130.0" mnemonicParsing="false" onAction="#adaugaProgramare" style="-fx-background-color: #b42727;" text="Adauga programare" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="368.0" layoutY="122.0" mnemonicParsing="false" onAction="#refreshTable" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/refresh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

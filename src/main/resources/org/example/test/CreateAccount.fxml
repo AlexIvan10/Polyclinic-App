@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="820.0" prefWidth="870.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.CreateAccountController">
+   <children>
+      <Button fx:id="backButtonCA" layoutX="502.0" layoutY="693.0" mnemonicParsing="false" onAction="#logOutButtonAction" style="-fx-background-color: #b42727;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="305.0" layoutY="42.0" text="Create Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="147.0" text="Nume" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="198.0" text="Prenume" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="474.0" text="CNP" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="250.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="301.0" text="Parola" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="358.0" text="Adresa" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="416.0" text="Numar Telefon" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="693.0" mnemonicParsing="false" onAction="#createUser" style="-fx-background-color: #006622;" text="Create" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="policlinicaFld" layoutX="288.0" layoutY="532.0" prefHeight="35.0" prefWidth="375.0" />
+      <Label layoutX="94.0" layoutY="532.0" text="Policlinica" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numeFld" layoutX="288.0" layoutY="144.0" prefHeight="35.0" prefWidth="375.0" promptText="Nume" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="prenumeFld" layoutX="288.0" layoutY="195.0" prefHeight="35.0" prefWidth="375.0" promptText="Prenume" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailFld" layoutX="288.0" layoutY="247.0" prefHeight="35.0" prefWidth="375.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="adresaFld" layoutX="288.0" layoutY="355.0" prefHeight="35.0" prefWidth="375.0" promptText="Adresa" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nrTelFld" layoutX="288.0" layoutY="413.0" prefHeight="35.0" prefWidth="375.0" promptText="Numar Telefon" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CNPFld" layoutX="288.0" layoutY="467.0" prefHeight="35.0" prefWidth="375.0" promptText="CNP" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label fx:id="errorMessage" alignment="CENTER" layoutX="126.0" layoutY="607.0" prefHeight="35.0" prefWidth="615.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="parolaFld" layoutX="288.0" layoutY="301.0" prefHeight="41.0" prefWidth="375.0" promptText="Parola" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="510.0" prefWidth="860.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.GestioneazaDonatoriController">
+   <children>
+      <Label alignment="CENTER" layoutX="274.0" layoutY="28.0" prefHeight="35.0" prefWidth="313.0" text="Gestiunea donatorilor" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="inapoiButton" layoutX="381.0" layoutY="419.0" mnemonicParsing="false" onAction="#inapoiButtonAction" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #b42727;" text="Inapoi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableDonatori" layoutX="61.0" layoutY="139.0" prefHeight="200.0" prefWidth="738.0">
+        <columns>
+          <TableColumn fx:id="numeCol" prefWidth="102.00000381469727" text="NumeDonator" />
+          <TableColumn fx:id="prenumeCol" prefWidth="114.66667175292969" text="PrenumeDonator" />
+            <TableColumn fx:id="emailCol" prefWidth="249.33328247070312" text="Email" />
+            <TableColumn fx:id="grupaCol" prefWidth="52.0" text="Grupa" />
+            <TableColumn fx:id="RHCol" prefWidth="106.66668701171875" text="RH" />
+            <TableColumn fx:id="dataColectariiCol" prefWidth="112.00006103515625" text="DataColectarii" />
+        </columns>
+      </TableView>
+      <Label fx:id="errorMessage" alignment="CENTER" layoutX="193.0" layoutY="363.0" prefHeight="35.0" prefWidth="475.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="61.0" layoutY="63.0" mnemonicParsing="false" onAction="#stergeDonator" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/deleteuser.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

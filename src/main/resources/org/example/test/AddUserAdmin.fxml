@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="772.0" prefWidth="410.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.AddUserAdminController">
+   <children>
+      <Label layoutX="70.0" layoutY="146.0" prefHeight="27.0" prefWidth="53.0" text="Nume" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="196.0" prefHeight="27.0" prefWidth="78.0" text="Prenume" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="246.0" prefHeight="27.0" prefWidth="47.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="496.0" prefHeight="27.0" prefWidth="133.0" text="Numar Telefon" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="346.0" prefHeight="27.0" prefWidth="38.0" text="CNP" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="396.0" prefHeight="27.0" prefWidth="47.0" text="IBAN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="546.0" prefHeight="27.0" prefWidth="66.0" text="Functie" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="596.0" prefHeight="27.0" prefWidth="126.0" text="Data Angajarii" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="446.0" prefHeight="27.0" prefWidth="60.0" text="Adresa" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numeFldAA" layoutX="190.0" layoutY="139.0" prefHeight="31.0" prefWidth="193.0" promptText="Nume" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="prenumeFldAA" layoutX="190.0" layoutY="189.0" prefHeight="31.0" prefWidth="193.0" promptText="Prenume" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailFldAA" layoutX="190.0" layoutY="239.0" prefHeight="31.0" prefWidth="193.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nrTelFldAA" layoutX="190.0" layoutY="489.0" prefHeight="31.0" prefWidth="193.0" promptText="Numar Telefon" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CNPFldAA" layoutX="190.0" layoutY="339.0" prefHeight="31.0" prefWidth="193.0" promptText="CNP" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="IBANFldAA" layoutX="190.0" layoutY="389.0" prefHeight="31.0" prefWidth="193.0" promptText="IBAN" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="adresaFldAA" layoutX="190.0" layoutY="439.0" prefHeight="31.0" prefWidth="193.0" promptText="Adresa" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="functieFldAA" layoutX="190.0" layoutY="544.0" prefHeight="31.0" prefWidth="193.0" />
+      <DatePicker fx:id="dateFldAA" layoutX="190.0" layoutY="592.0" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="inapoiButtonA" layoutX="232.0" layoutY="696.0" mnemonicParsing="false" onAction="#inapoiButton" prefHeight="39.0" prefWidth="89.0" style="-fx-background-color: #b42727;" text="Inapoi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addButtonA" layoutX="91.0" layoutY="696.0" mnemonicParsing="false" onAction="#addButton" style="-fx-background-color: #006622;" text="Adauga" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="messageLabelAA" alignment="CENTER" layoutX="79.0" layoutY="648.0" prefHeight="27.0" prefWidth="293.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="296.0" prefHeight="27.0" prefWidth="60.0" text="Parola" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="parolaFldAA" layoutX="190.0" layoutY="289.0" prefHeight="31.0" prefWidth="193.0" promptText="Parola" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="88.0" layoutY="46.0" prefHeight="35.0" prefWidth="234.0" text="Adauga" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

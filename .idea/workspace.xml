@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa4e670e-c3ea-4598-b608-a904392c9a6e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2aVVgNQrW7BoO0prqeWepmHRN0E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloController.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/UTCN/Proiect BD/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.test" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa4e670e-c3ea-4598-b608-a904392c9a6e" name="Changes" comment="" />
+      <created>1704403845523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704403845523</updated>
+      <workItem from="1704403846788" duration="183000" />
+      <workItem from="1704404104915" duration="3265000" />
+      <workItem from="1704448373381" duration="1764000" />
+      <workItem from="1704464712796" duration="6643000" />
+      <workItem from="1704482229496" duration="5208000" />
+      <workItem from="1704489680138" duration="632000" />
+      <workItem from="1704498871457" duration="204000" />
+      <workItem from="1704540965223" duration="1095000" />
+      <workItem from="1704630596637" duration="305000" />
+      <workItem from="1704636748756" duration="1332000" />
+      <workItem from="1704665829708" duration="5688000" />
+      <workItem from="1704714081259" duration="6395000" />
+      <workItem from="1704822712902" duration="2030000" />
+      <workItem from="1704831459680" duration="5000" />
+      <workItem from="1704835271254" duration="5743000" />
+      <workItem from="1704848530776" duration="59000" />
+      <workItem from="1704848598382" duration="55000" />
+      <workItem from="1704848661273" duration="32000" />
+      <workItem from="1704848701845" duration="260000" />
+      <workItem from="1704849693952" duration="1510000" />
+      <workItem from="1704885963985" duration="19000" />
+      <workItem from="1704886168176" duration="775000" />
+      <workItem from="1704896070415" duration="3163000" />
+      <workItem from="1704904515297" duration="161000" />
+      <workItem from="1704907443991" duration="962000" />
+      <workItem from="1704916445595" duration="1201000" />
+      <workItem from="1704918308022" duration="7647000" />
+      <workItem from="1704959029399" duration="3713000" />
+      <workItem from="1704977772112" duration="1336000" />
+      <workItem from="1704985589785" duration="3135000" />
+      <workItem from="1704995806610" duration="19000" />
+      <workItem from="1704998512674" duration="2285000" />
+      <workItem from="1705002954788" duration="6597000" />
+      <workItem from="1705066412004" duration="3956000" />
+      <workItem from="1705085477840" duration="798000" />
+      <workItem from="1705105880654" duration="4436000" />
+      <workItem from="1705110345936" duration="499000" />
+      <workItem from="1705142493558" duration="35734000" />
+      <workItem from="1705230526655" duration="34903000" />
+      <workItem from="1705316264722" duration="2582000" />
+      <workItem from="1705318979921" duration="23359000" />
+      <workItem from="1705356428856" duration="347000" />
+      <workItem from="1705366294141" duration="1992000" />
+      <workItem from="1705401810479" duration="7370000" />
+      <workItem from="1705414555025" duration="4043000" />
+      <workItem from="1705420552245" duration="18723000" />
+      <workItem from="1705439570199" duration="11476000" />
+      <workItem from="1705486423969" duration="523000" />
+      <workItem from="1705486981775" duration="89000" />
+      <workItem from="1705487103569" duration="11000" />
+      <workItem from="1705522287110" duration="21623000" />
+      <workItem from="1705571038548" duration="15298000" />
+      <workItem from="1705588374410" duration="314000" />
+      <workItem from="1705588697763" duration="611000" />
+      <workItem from="1705601327659" duration="2000" />
+      <workItem from="1705601349706" duration="1049000" />
+      <workItem from="1705614577219" duration="10000" />
+      <workItem from="1705667407891" duration="3217000" />
+      <workItem from="1705676766856" duration="288000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

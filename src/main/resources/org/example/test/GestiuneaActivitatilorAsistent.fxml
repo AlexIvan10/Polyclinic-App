@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="770.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.GestiuneaActivitatilorAsistentController">
+   <children>
+      <Label layoutX="200.0" layoutY="45.0" text="Gestiunea activitatilor" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableAsistent" layoutX="145.0" layoutY="143.0" prefHeight="200.0" prefWidth="479.0">
+        <columns>
+            <TableColumn fx:id="medicAsistentFld" prefWidth="219.3333740234375" text="Medic" />
+          <TableColumn fx:id="dataAsistentFld" prefWidth="126.0" text="DataProgramare" />
+          <TableColumn fx:id="oraAsistentFld" prefWidth="132.66668701171875" text="OraProgramare" />
+        </columns>
+      </TableView>
+      <Button fx:id="backButtonA" layoutX="325.0" layoutY="403.0" mnemonicParsing="false" onAction="#backButton" prefHeight="52.0" prefWidth="119.0" style="-fx-background-color: #b42727;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

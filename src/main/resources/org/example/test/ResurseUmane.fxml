@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.ResurseUmaneController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #db5757;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logOutButton" layoutX="440.0" layoutY="573.0" mnemonicParsing="false" onAction="#logOutButtonAction" prefHeight="52.0" prefWidth="119.0" style="-fx-background-color: #b42727;" text="Log out" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="286.0" layoutY="64.0" text="Inspector Resurse Umane" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="120.0" layoutY="141.0" mnemonicParsing="false" onAction="#gestiuneaResurselorButtonAction" style="-fx-background-color: #b42727;" text="Gestiunea Resurselor Umane" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="147.0" layoutY="267.0" text="Nume" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="130.0" layoutY="318.0" text="Prenume" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="367.0" text="Ore de lucru pe zi" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="142.0" layoutY="419.0" text="Salariu" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="numeInspectorFld" layoutX="318.0" layoutY="268.0" prefHeight="35.0" prefWidth="363.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="prenumeInspectorFld" layoutX="318.0" layoutY="319.0" prefHeight="35.0" prefWidth="363.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="oreInspectorFld" layoutX="318.0" layoutY="368.0" prefHeight="35.0" prefWidth="363.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="salariuInspectorFld" layoutX="318.0" layoutY="420.0" prefHeight="35.0" prefWidth="363.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="572.0" layoutY="141.0" mnemonicParsing="false" onAction="#doneazaSange" style="-fx-background-color: #b42727;" text="Doneaza sange" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="errorMessage" alignment="CENTER" layoutX="228.0" layoutY="512.0" prefHeight="35.0" prefWidth="543.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

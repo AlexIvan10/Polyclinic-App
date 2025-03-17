@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="780.0" prefWidth="930.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.UpdateMedicController">
+   <children>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="146.0" prefHeight="27.0" prefWidth="60.0" text="Nume*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="196.0" prefHeight="27.0" prefWidth="91.0" text="Prenume*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="246.0" prefHeight="27.0" prefWidth="60.0" text="Email*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="496.0" prefHeight="27.0" prefWidth="145.0" text="Numar Telefon*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="346.0" prefHeight="27.0" prefWidth="60.0" text="CNP*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="396.0" prefHeight="27.0" prefWidth="60.0" text="IBAN*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="546.0" prefHeight="27.0" prefWidth="145.0" text="Data Angajarii*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="446.0" prefHeight="27.0" prefWidth="75.0" text="Adresa*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numeFld" layoutX="190.0" layoutY="139.0" prefHeight="31.0" prefWidth="193.0" promptText="Nume" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="prenumeFld" layoutX="190.0" layoutY="189.0" prefHeight="31.0" prefWidth="193.0" promptText="Prenume" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailFld" layoutX="190.0" layoutY="239.0" prefHeight="31.0" prefWidth="193.0" promptText="Email" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nrTelFld" layoutX="190.0" layoutY="489.0" prefHeight="31.0" prefWidth="193.0" promptText="Numar Telefon" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CNPFld" layoutX="190.0" layoutY="339.0" prefHeight="31.0" prefWidth="193.0" promptText="CNP" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="IBANFld" layoutX="190.0" layoutY="389.0" prefHeight="31.0" prefWidth="193.0" promptText="IBAN" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="adresaFld" layoutX="190.0" layoutY="439.0" prefHeight="31.0" prefWidth="193.0" promptText="Adresa" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <DatePicker fx:id="dataAngajariiFld" layoutX="186.0" layoutY="542.0" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: transparent;" />
+      <Button fx:id="inapoiButton" layoutX="534.0" layoutY="696.0" mnemonicParsing="false" onAction="#inapoiButton" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #b42727;" text="Inapoi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="modificaButton" layoutX="287.0" layoutY="696.0" mnemonicParsing="false" onAction="#modificaButton" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #adad00;" text="Modifica" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="messageLabelAM" alignment="CENTER" layoutX="79.0" layoutY="648.0" prefHeight="27.0" prefWidth="809.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="296.0" prefHeight="27.0" prefWidth="84.0" text="Parola*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="parolaFld" layoutX="190.0" layoutY="289.0" prefHeight="31.0" prefWidth="193.0" promptText="Parola" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" layoutX="360.0" layoutY="52.0" prefHeight="35.0" prefWidth="210.0" text="Modifica Medic" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="516.0" layoutY="147.0" prefHeight="27.0" prefWidth="66.0" text="Salariu*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="503.0" layoutY="197.0" prefHeight="27.0" prefWidth="91.0" text="Ore lucru*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="493.0" layoutY="246.0" prefHeight="27.0" prefWidth="112.0" text="Specialitate*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="522.0" layoutY="296.0" prefHeight="27.0" prefWidth="53.0" text="Grad*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="496.0" layoutY="346.0" prefHeight="27.0" prefWidth="105.0" text="Cod parafa*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="486.0" layoutY="396.0" prefHeight="27.0" prefWidth="126.0" text="Titlu stiintific*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="489.0" layoutY="446.0" prefHeight="27.0" prefWidth="119.0" text="Post didactic*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="476.0" layoutY="496.0" prefHeight="27.0" prefWidth="145.0" text="Procent Servicii*" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="493.0" layoutY="547.0" prefHeight="27.0" prefWidth="112.0" text="Competente" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="salariuFld" layoutX="650.0" layoutY="139.0" prefHeight="31.0" prefWidth="193.0" promptText="Salariu" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="oreFld" layoutX="650.0" layoutY="189.0" prefHeight="31.0" prefWidth="193.0" promptText="Ore lucru" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="specialitateFld" layoutX="650.0" layoutY="239.0" prefHeight="31.0" prefWidth="193.0" promptText="Specialitate" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="codParafaFld" layoutX="650.0" layoutY="339.0" prefHeight="31.0" prefWidth="193.0" promptText="Cod parafa" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="titluFld" layoutX="650.0" layoutY="389.0" prefHeight="31.0" prefWidth="193.0" promptText="Titlu stiintific" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="gradFld" layoutX="650.0" layoutY="294.0" prefHeight="31.0" prefWidth="193.0" />
+      <TextField fx:id="postFld" layoutX="650.0" layoutY="439.0" prefHeight="31.0" prefWidth="193.0" promptText="Post didactic" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="procentFld" layoutX="650.0" layoutY="489.0" prefHeight="31.0" prefWidth="193.0" promptText="Procent Servicii" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="compFld" layoutX="650.0" layoutY="539.0" prefHeight="31.0" prefWidth="193.0" promptText="Competente" style="-fx-background-color: transparent; -fx-border-color: #b42727; -fx-border-width: 0px 0px 2px 0px; -fx-text-fill: #ffffff; -fx-prompt-text-fill: #ffffff;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <DatePicker fx:id="dataCompFld" layoutX="650.0" layoutY="592.0" prefHeight="35.0" prefWidth="193.0" style="-fx-background-color: transparent;" />
+      <Label alignment="CENTER" layoutX="482.0" layoutY="597.0" prefHeight="27.0" prefWidth="133.0" text="Data acreditare" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

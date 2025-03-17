@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #db5757;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.test.SelectUserTypeSuperAdminController">
+   <children>
+      <ChoiceBox fx:id="selectFunctieFld" layoutX="149.0" layoutY="172.0" prefHeight="39.0" prefWidth="302.0" />
+      <Label alignment="CENTER" layoutX="193.0" layoutY="82.0" prefHeight="35.0" prefWidth="213.0" text="Selecteaza functie" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="adaugaButtonType" layoutX="186.0" layoutY="327.0" mnemonicParsing="false" onAction="#adaugaButtonAction" style="-fx-background-color: #006622;" text="Adauga" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="inapoiButtonType" layoutX="330.0" layoutY="327.0" mnemonicParsing="false" onAction="#inapoiButtonAction" prefHeight="39.0" prefWidth="89.0" style="-fx-background-color: #b42727;" text="Inapoi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="errorMessage" alignment="CENTER" layoutX="85.0" layoutY="249.0" prefHeight="35.0" prefWidth="429.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
